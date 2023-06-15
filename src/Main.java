@@ -12,5 +12,10 @@ public class Main {
         joe.retire();
         System.out.println("Joe's pension check = $" + joe.collectPay());
 
+        HourlyEmployee mary = new HourlyEmployee("Mary","11/01/1989","10/10/2020", 15);
+        System.out.println(mary);
+        System.out.println(mary.collectPay());
+        System.out.println(mary.getDoublePay());
+
     }
 }
