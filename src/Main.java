@@ -16,6 +16,5 @@ public class Main {
         System.out.println(mary);
         System.out.println(mary.collectPay());
         System.out.println(mary.getDoublePay());
-
     }
 }
